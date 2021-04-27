@@ -1,0 +1,10 @@
+CREATE TABLE dados_coletados(
+    Tempo TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP ,  
+    Uso_CPU_Percentual DOUBLE, 
+    RAM_Percentual DOUBLE, 
+    Disco_Percentual DOUBLE, 
+    Bateria_Percentual DOUBLE,
+    Bateria_Duracao VARCHAR(25),
+    Bateria_Status VARCHAR(25),
+    Conectado_Rede VARCHAR(25)
+)
