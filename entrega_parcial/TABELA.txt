@@ -8,3 +8,7 @@ CREATE TABLE dados_coletados(
     Bateria_Status VARCHAR(25),
     Conectado_Rede VARCHAR(25)
 )
+
+# Coluna tempo possui a função de se preencher automaticamente com data e hora, conforme dados forem inseridos na tabela.
+# Já as colunas Uso_CPU_Percentual, RAM__Percentual, Disco_Percentual e Bateira_Percentual são colunas do tipo double, já que recebem dados numéricos.
+# Em relação as colunas Bateria_Duração, Bateira_Status e Conectando_rede são colunas do tipo varchar já que irão receber dados textuais.
